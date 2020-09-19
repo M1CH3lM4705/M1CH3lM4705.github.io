@@ -8,7 +8,7 @@ const container = document.querySelector('.container');
 
 const tl = new TimelineMax();
 
-tl.fromTo(hero, 1, { heigth: "0%" }, { heigth: "80%", ease: Power2.easeInOut },)
+tl.fromTo(hero, 1, { height: "0%" }, { height: "80%", ease: Power2.easeInOut },)
 .fromTo(
     hero, 
     1.2, 
