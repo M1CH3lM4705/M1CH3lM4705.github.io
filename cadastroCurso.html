@@ -27,19 +27,25 @@
                         </h5>
                     </div><!-- Inicio do Cabeçalho-->
                     <div class="card-body"><!-- Inicio do body-card-->
-                        <form action="">
+                        <form action="" class="needs-validation" novalidate>
                             <div class="form-row">
                                 <div class="form-group col-md-8 mb-3">
                                     <label for="nomeCurso">Nome do curso</label>
-                                    <input class="form-control" type="text" name="nomeCurso" id="nomeCurso">
+                                    <input class="form-control" type="text" name="nomeCurso" id="nomeCurso" required>
+                                    <div class="invalid-tooltip">
+                                        Esse campo é obrigatorio!
+                                    </div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="turno">Turno</label>
-                                    <select class="form-control" name="turno" id="turno">
+                                    <select class="custom-select" name="turno" id="turno" required>
                                         <option value="Matutino">Matutino</option>
                                         <option value="Verspetino">Verspetino</option>
                                         <option value="Noturno>">Noturno</option>
                                     </select>
+                                    <div class="invalid-tooltip">
+                                        Esse campo é obrigatorio!
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-row">
